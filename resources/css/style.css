@@ -3,19 +3,29 @@ body {
   padding: 0;
   background-color: black;
   color: white;
-  font-family: Arial, sans-serif;
+  font-family: Verdana, Tahoma, sans-serif;
   text-align: center;
 }
 
 h1 {
-  font-size: 2em;
+  font-size: 50px;
   margin-top: 40px;
 }
 
+h2 {
+  font-size: 42 px;
+  font-weight: 300;
+}
+
+h2 p {
+  font-size: 21px;
+  color: #808080;
+}
+
 a {
-  color: #00ffcc;
+  color: #7fffd4;
   text-decoration: none;
-  font-size: 0.9em;
+  font-size: 16px;
 }
 
 a:hover {
@@ -49,7 +59,8 @@ a:hover {
 }
 
 .footer {
+  text-align: right;
   margin-top: 40px;
   font-size: 0.7em;
-  color: gray;
+  color: #808080;
 }
